@@ -14,7 +14,7 @@
 </body>
 <script type="text/javascript">
 	let pastGuess = "";
-	let count = 5;
+	let count = 10;
 	const correctNumber = getRandomInt(1,10);
 	//const correctNumber = 7;
 
@@ -22,7 +22,8 @@
 		min = Math.ceil(min);
 		max = Math.floor(max);
 		return Math.floor(Math.random() * (max - min)) + min; 
-		}
+	}
+
 	function handleGuessBtnClick() {
 		console.log(correctNumber);
 		const inputValue = parseInt(document.getElementById("inputNumber").value)
