@@ -47,7 +47,7 @@ export default function App() {
 
         <View>
           <View>
-            <Text style={styleApp.name}>Bach Tung</Text>
+            <Text style={styleApp.name}>Anh Tu Trn</Text>
             <Text style={styleApp.colorGray}>Developer</Text>
             <View style={styleApp.ctnContact}>
               <TouchableOpacity
@@ -69,17 +69,17 @@ export default function App() {
       {/*CountFollow*/}
       <View style={styleApp.ctnViewFollow}>
         <View style={styleApp.ctnCenter}>
-          <Text style={styleApp.txtCount}>210</Text>
+          <Text style={styleApp.txtCount}>220</Text>
           <Text style={styleApp.colorGray}>Photos</Text>
         </View>
 
         <View style={styleApp.ctnCenter}>
-          <Text style={styleApp.txtCount}>15K</Text>
+          <Text style={styleApp.txtCount}>22K</Text>
           <Text style={styleApp.colorGray}>Followers</Text>
         </View>
 
         <View style={styleApp.ctnCenter}>
-          <Text style={styleApp.txtCount}>605</Text>
+          <Text style={styleApp.txtCount}>123</Text>
           <Text style={styleApp.colorGray}>Following</Text>
         </View>
       </View>
