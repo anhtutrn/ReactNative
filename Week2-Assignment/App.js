@@ -52,7 +52,7 @@ export default function App() {
 			<View style={styles.infoView}>
 				<Image source={pic1} style={styles.avatar} />
 				<View>
-					<Text style={styles.userName}>Huu An</Text>
+					<Text style={styles.userName}>Anh Tu</Text>
 					<Text style={styles.speciality}>Developer</Text>
 					<View style={styles.numberView}>
 						<TouchableOpacity
